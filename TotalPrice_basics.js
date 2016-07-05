@@ -3,7 +3,7 @@ const tax_rate = 0.10
 const phone_cost = 300.00;
 const accessory_price = 30.00
 
-var acc_balance = 500.00
+var acc_balance = prompt("enter the bank balance");
 var money = 0;
 
 function cal_tax(amt)
